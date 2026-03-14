@@ -47,9 +47,11 @@ public class Tool extends Equippable {
         super();
 
         this.setName(src.name);
-
-        // Complete this function
-
+        this.setMaterial(src.material);
+        this.setDurability(src.getDurability());
+        this.setModifier(src.getModifier());
+        this.setModifierLevel(src.getModifierLevel());
+        this.setSpeed(src.speed);
     }
 
     /**

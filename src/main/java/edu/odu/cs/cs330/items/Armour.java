@@ -42,7 +42,13 @@ public class Armour extends Equippable {
      */
     public Armour(Armour src)
     {
-        // Complete this function.
+        super();
+        this.setName(src.getName());
+        this.setMaterial(src.getMaterial());
+        this.setDurability(src.getDurability());
+        this.setModifier(src.getModifier());
+        this.setModifierLevel(src.getModifierLevel());
+        this.setDefense(src.getDefense());
     }
 
     /**

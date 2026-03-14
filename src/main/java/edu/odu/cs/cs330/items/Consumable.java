@@ -138,8 +138,8 @@ public class Consumable extends Item {
 
         Consumable rhsItem = (Consumable) rhs;
 
-        // Use the provided return as a start/hint
-        return this.name.equals(rhsItem.name);
+        return this.name.equals(rhsItem.name)
+            && this.effect.equals(rhsItem.effect);
     }
 
     /**

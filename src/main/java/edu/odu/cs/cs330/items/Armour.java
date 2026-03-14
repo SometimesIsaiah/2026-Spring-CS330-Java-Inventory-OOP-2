@@ -49,6 +49,7 @@ public class Armour extends Equippable {
         this.setModifier(src.getModifier());
         this.setModifierLevel(src.getModifierLevel());
         this.setDefense(src.getDefense());
+        this.element = src.element;
     }
 
     /**
@@ -152,7 +153,7 @@ public class Armour extends Equippable {
             String.format("  Def: %d", this.getDefense()),
             String.format("  Mtl: %s", this.getMaterial()),
             String.format("  Mdr: %s (Lvl %d)", this.getModifier(), this.getModifierLevel()),
-            String.format("  Elt: %s", this.element),
+            String.format("  Emt: %s", this.element),
             ""
         );
     }

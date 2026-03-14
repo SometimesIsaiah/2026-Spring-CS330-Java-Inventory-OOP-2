@@ -136,8 +136,7 @@ public class Tool extends Equippable {
     {
         return name.hashCode()
             + material.hashCode()
-            + modifier.hashCode()
-            + element.hashCode();
+            + modifier.hashCode();
     }
 
     /**

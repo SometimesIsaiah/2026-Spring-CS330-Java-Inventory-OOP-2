@@ -133,7 +133,7 @@ public class Armour extends Equippable {
     @Override
     public int hashCode()
     {
-        return name.hashcode()
+        return name.hashCode()
             + material.hashCode()
             + modifier.hashCode()
             + element.hashCode();

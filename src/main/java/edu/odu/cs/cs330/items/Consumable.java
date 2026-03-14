@@ -160,10 +160,11 @@ public class Consumable extends Item {
     @Override
     public String toString()
     {
-        // Complete this function... treat the return as a hint.
         return String.join(
             System.lineSeparator(),
             String.format("  Nme: %s", super.getName()),
+            String.format("  Eff: %s", this.effect),
+            String.format("  Use: %d", this.uses),
             ""
         );
     }

@@ -98,11 +98,7 @@ public class Tool extends Equippable {
     @Override
     public Item clone()
     {
-        Tool cpy = new Tool();
-
-        cpy.setName(this.name);
-
-        // Complete this function
+        Tool cpy = new Tool(this);
 
         return cpy;
     }

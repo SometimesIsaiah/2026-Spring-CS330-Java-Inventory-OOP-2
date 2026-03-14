@@ -118,9 +118,7 @@ public class Consumable extends Item {
     @Override
     public Item clone()
     {
-        Consumable cpy = new Consumable();
-
-        // Complete this function.
+        Consumable cpy = new Consumable(this);
 
         return cpy;
     }

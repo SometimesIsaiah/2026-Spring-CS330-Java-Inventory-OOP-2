@@ -94,9 +94,7 @@ public class Armour extends Equippable {
     @Override
     public Item clone()
     {
-        Armour cpy = new Armour();
-
-        // Complete this function.
+        Armour cpy = new Armour(this);
 
         return cpy;
     }

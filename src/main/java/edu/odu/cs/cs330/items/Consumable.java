@@ -49,7 +49,8 @@ public class Consumable extends Item {
      */
     public Consumable(Consumable src)
     {
-        super(src.getName(),true);
+        super(src.getName());
+        
         this.effect = src.effect;
         this.uses = src.uses;
     }

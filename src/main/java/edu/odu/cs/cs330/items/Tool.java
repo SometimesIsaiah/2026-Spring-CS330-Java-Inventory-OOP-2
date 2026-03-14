@@ -87,9 +87,13 @@ public class Tool extends Equippable {
     public void read(Scanner snr)
     {
         super.name    = snr.next();
-        material      = snr.next();
+        
+        this.material = snr.next();
+        this.durability = snr.nextInt();
+        this.speed = snr.nextInt();
+        this.modifier = snr.next();
+        this.modifierLevel = snr.nextInt();
 
-        // Complete this function
     }
 
     /**

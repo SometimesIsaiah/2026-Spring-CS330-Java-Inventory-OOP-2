@@ -109,7 +109,8 @@ public class Consumable extends Item {
     {
         super.name    = snr.next();
 
-        // Complete this function.
+        this.effect = snr.next();
+        this.uses = snr.nextInt();
     }
 
     /**

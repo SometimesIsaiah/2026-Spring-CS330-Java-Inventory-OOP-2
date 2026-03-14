@@ -84,8 +84,14 @@ public class Armour extends Equippable {
     public void read(Scanner snr)
     {
         super.name    = snr.next();
+        
+        this.material = snr.next();
+        this.durability = snr.nextInt();
+        this.defense = snr.nextInt();
+        this.modifier = snr.next();
+        this.modifierLevel = snr.nextInt();
+        this.element = snr.next();
 
-        // Complete this function.
     }
 
     /**

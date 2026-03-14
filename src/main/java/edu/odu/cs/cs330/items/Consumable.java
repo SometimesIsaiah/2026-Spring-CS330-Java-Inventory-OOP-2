@@ -151,8 +151,7 @@ public class Consumable extends Item {
     @Override
     public int hashCode()
     {
-        // Use the provided return as a start/hint
-        return this.name.hashCode();
+        return this.name.hashCode() + effect.hashCode();
     }
 
     /**

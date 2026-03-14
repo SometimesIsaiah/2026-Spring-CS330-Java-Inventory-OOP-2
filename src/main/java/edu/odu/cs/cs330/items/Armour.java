@@ -133,9 +133,10 @@ public class Armour extends Equippable {
     @Override
     public int hashCode()
     {
-        // Complete this function.
-        // Remove the placeholder return
-        return -1;
+        return name.hashcode()
+            + material.hashCode()
+            + modifier.hashCode()
+            + element.hashCode();
     }
 
     /**

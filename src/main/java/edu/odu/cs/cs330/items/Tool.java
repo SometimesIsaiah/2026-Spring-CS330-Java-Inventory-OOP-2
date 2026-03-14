@@ -134,8 +134,10 @@ public class Tool extends Equippable {
     @Override
     public int hashCode()
     {
-        // Complete this function
-        return -1;
+        return name.hashCode()
+            + material.hashCode()
+            + modifier.hashCode()
+            + element.hashCode();
     }
 
     /**
